@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="action_afr_supervisorio_ciclos_vapor" model="ir.actions.act_window">
+        <field name="name">Ciclos Autoclave Vapor Saturado</field>
+        <field name="res_model">afr.supervisorio.ciclos</field>
+        <field name="view_mode">tree,form,calendar,pivot</field>
+        
+        <!-- <field name="view_ids" eval="[(5, 0, 0),
+            (0, 0, {'view_mode': 'tree', 'view_id': ref('afr_supervisorio_ciclos.view_afr_supervisorio_ciclos_tree')}),
+            (0, 0, {'view_mode': 'form', 'view_id': ref('view_afr_supervisorio_ciclos_form_vapor')})]"/> -->
+        <field name="help" type="html">
+            <p class="o_view_nocontent_empty_folder">
+                Não há ciclos cadastrados.
+            </p>
+            <p>
+                Os ciclos serão registrados automaticamente pelo sistema.
+            </p>
+        </field>
+    </record>
+
+ <menuitem 
+        id="menu_afr_supervisorio_ciclos_vapor"
+        name="Ciclos Autoclave Vapor Saturado"
+        parent="afr_supervisorio_ciclos.menu_afr_supervisorio_ciclos_operations"
+        action="action_afr_supervisorio_ciclos_vapor"
+        sequence="1"/>
+</odoo>

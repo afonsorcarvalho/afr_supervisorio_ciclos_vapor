@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+<!-- <record id="view_afr_supervisorio_ciclos_form_vapor" model="ir.ui.view">
+        <field name="name">afr.supervisorio.ciclos.form.vapor</field>
+        <field name="model">afr.supervisorio.ciclos</field>
+        <field name="inherit_id" ref="afr_supervisorio_ciclos.view_afr_supervisorio_ciclos_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='cycle_type_id']" position="after">  
+                VAPOR
+            </xpath>
+        </field>
+        
+</record> -->
+
+</odoo>
